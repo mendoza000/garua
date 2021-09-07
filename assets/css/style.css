@@ -1,0 +1,69 @@
+:root{
+	--color-primary-xo: #1c242e;
+	--color-primary-o: #262f38;
+	--color-primary: #303841;
+	--color-primary-l: #48515c;
+	--color-primary-xl: #68727d;
+
+	--color-secondary-xo: #cc570a;
+	--color-secondary-o: #e8640e;
+	--color-secondary: #FD7014;
+	--color-secondary-l: #ff883b;
+	--color-secondary-xl: #ff9957;
+
+	--color-text: #fff;
+
+	--font-title: 'Bree Serif', serif;
+	--font-text: 'Abel', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	font-family: var(--font-text);
+	background-color: var(--color-primary);
+	color: var(--color-text);
+}
+.app_title{
+	font-family: var(--font-title);
+	font-size: 2.8em;
+	margin-left: 0.3em;
+}
+.app_header{
+	background: rgb(28,36,46);
+	background: linear-gradient(320deg, rgba(28,36,46,1) 33%, rgba(72,81,92,1) 100%);
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.app_header p{
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+@keyframes rotate {
+
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+
+}
+
+.header_col_img{
+	height: 13em;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 4em;
+	margin-bottom: 1em;
+	animation-name: rotate;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+
+}
