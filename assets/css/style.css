@@ -134,6 +134,7 @@ html, body{
 	background-color: rgb(28, 36, 46, 0.8);
 	color: inherit;
 	z-index: 20;
+	border: 1px solid var(--color-primary-xl);
 }
 
 .col2{
