@@ -71,7 +71,10 @@ html, body{
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
-
+	box-shadow: 0px 0px 53px -8px #847bc7;
+	-webkit-box-shadow: 0px 0px 53px -8px #847bc7;
+	-moz-box-shadow: 0px 0px 53px -8px #847bc7;
+	border-radius: 50%;
 }
 
 .app_nav{
@@ -158,10 +161,38 @@ html, body{
 	background-color: var(--color-primary-l);
 }
 .skill i{
-	color: var(--color-secondary-o);
+	color: var(--color-secondary-l);
 	font-size: 1.5em;
 }
 
 .about{
-	margin-top: 4em;
+	margin-top: 12em;
+	background-color: var(--color-secondary-l);
+	color: #000;
+	padding-bottom: 5em;
+}
+.about_wave{
+	position: relative;
+	bottom: 6.8em;
+	margin-bottom: -6em;
+	width: 100vw;
+
+}
+.about_title{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	z-index: 3;
+	border-bottom: 2px solid var(--color-primary);
+	width: 5em;
+	margin: 0 auto;
+	margin-top: -0.4em;
+	margin-bottom: 0.5em;
+	font-weight: bold;
+}
+.about p{
+	text-align: center;
+	margin: 0 1em;
 }
