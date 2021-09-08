@@ -185,15 +185,78 @@ html, body{
 	justify-content: center;
 	align-items: center;
 	font-size: 2em;
-	z-index: 3;
 	border-bottom: 2px solid var(--color-primary);
 	width: 5em;
 	margin: 0 auto;
 	margin-top: -0.4em;
 	margin-bottom: 0.5em;
 	font-weight: bold;
+	font-family: var(--font-title);
 }
 .about p{
 	text-align: center;
 	margin: 0 1em;
+}
+
+.project{
+	margin: 2em 1em;
+}
+.project_title{
+	font-size: 2em;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 2px solid var(--color-secondary-l);
+	width: 5em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0.5em;
+	font-weight: bolder;
+	font-family: var(--font-title);
+	padding-bottom: 0.2em;
+}
+.project_text{
+	text-align: center;
+	margin-bottom: 1em;
+}
+.features_title{
+	font-size: 1.5em;
+	font-family: var(--font-title);
+	margin-bottom: 1em;
+}
+.feature{
+	margin-top: 0.7em;
+}
+
+.sponsors{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.sponsor_card{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--color-secondary-l);
+	color: #000;
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+}
+.sponsor_card i{
+	font-size: 4em;
+}
+.sponsor_card span{
+	border-bottom: 2px solid var(--color-primary-l);
+}
+.sponsors_title{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	background-color: var(--color-secondary-l);
+	color: #000;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.3em;
+	font-family: var(--font-title);
 }
