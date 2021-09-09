@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -13,6 +13,12 @@
 
     <!-- line awesome -->
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <!-- Animate css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <div id="app">
@@ -143,7 +149,85 @@
         </div>
       </div>
 
+      <div class="prices">
+        <span class="prices_title">Prices</span>
+        <div class="btnsPlans">
+          <button 
+            class="btnPlan btnPlanActive"
+            id="btnPlanBasic">Basic</button>
+          <button 
+            class="btnPlan"
+            id="btnPlanClassic">Classic</button>
+          <button 
+            class="btnPlan"
+            id="btnPlanUltra">Ultra</button>
+        </div>
+        <div class="prices_container">
+
+          <div class="prices_card">
+            <p class="prices_card_title">Basic 5$</p>
+            <span>
+              <i class="las la-check"></i>
+              Five Garua token
+            </span>
+            <span>
+              <i class="las la-check"></i>
+              Advisory
+            </span>
+            <span>
+              <i class="las la-check"></i>
+              One land
+            </span>
+            <span>
+              <i class="las la-check"></i>
+              Twenty Five water
+            </span>
+            <span>
+              <i class="las la-check"></i>
+              Thirty five food
+            </span>
+            <span>
+              <i class="las la-times"></i>
+              One shield
+            </span>
+            <span>
+              <i class="las la-times"></i>
+              Two random potions
+            </span>
+            <span>
+              <i class="las la-times"></i>
+              One sword
+            </span>
+            <span>
+              <i class="las la-times"></i>
+              One pet
+            </span>
+            <span>
+              <i class="las la-times"></i>
+              One house
+            </span>
+            <span>
+              <i class="las la-times"></i>
+              One dragon
+            </span>
+            <span>
+              <i class="las la-times"></i>
+              One elf
+            </span>
+            <span>
+              <i class="las la-times"></i>
+              One armor
+            </span>
+
+            <!-- Equis -->
+            <!-- <i class="las la-times"></i> -->
+          </div>
+
+        </div>
+      </div>
+
     </div>
+    <script src="./assets/js/wow.min.js"></script>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

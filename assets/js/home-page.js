@@ -1,6 +1,7 @@
 const app = document.querySelector('#app');
 const btnMenu = document.querySelector('.btn_menu');
 const navMenu = document.querySelector('.app_nav');
+import {pricesBtnEvents} from './prices-btn-events'
 
 export const writeHomePage = () => {
 
@@ -37,5 +38,7 @@ const eventsHomePage = () => {
 		}
 
 	});
+
+	pricesBtnEvents()
 
 }
