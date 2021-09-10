@@ -18,7 +18,7 @@
 }
 /* etiquetas */
 .cs{
-	color: var(--color-secondary);
+	color: var(--color-secondary-l);
 }
 
 
@@ -136,6 +136,8 @@ html, body{
 	color: inherit;
 	z-index: 20;
 	border: 1px solid var(--color-primary-xl);
+	-webkit-box-shadow: 0px 0px 25px -6px #000000; 
+	box-shadow: 0px 0px 25px -6px #000000;
 }
 
 .col2{
@@ -391,6 +393,63 @@ span .la-times{
 	filter: blur(40px);
 }
 
+.staff{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 1em;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.staff_card{
+	display: flex;
+	align-items: center;
+	background-color: var(--color-primary);
+	padding: 1em 1em;
+	-webkit-box-shadow: 0px 0px 25px -6px #000000; 
+	box-shadow: 0px 0px 25px -6px #000000;
+	z-index: 4;
+}
+.staff_card img{
+	height: 5em;
+	width: 7em;
+	margin-right: 1em;
+}
+.staff_title{
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0.5em;
+	font-size: 2em;
+	font-family: var(--font-title);
+	border-bottom: 2px solid var(--color-secondary-l);
+	width: 4em;
+	margin-right: auto;
+	margin-left: auto;
+}
+.staff_effect_flur{
+	height: 4em;
+	width: 7em;
+	background-color: var(--color-secondary-l);
+	position: relative;
+	filter: blur(20px);
+	border-radius: 50%;
+}
+.staff_effect_flur:first-child{
+	margin-bottom: -5em;
+	right: 0.5em;
+}
+.staff_effect_flur:last-child{
+	margin-top: -5em;
+	display: flex;
+	margin-left: auto;
+}
+
+
+
 
 
 footer{
@@ -400,4 +459,5 @@ footer{
 	justify-content: center;
 	align-items: center;
 	font-size: 1.1em;
+	margin-top: 2em;
 }
