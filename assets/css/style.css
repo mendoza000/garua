@@ -158,11 +158,7 @@ html, body{
 	border-radius: 5px;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
-	transition: background-color 0.4s;
 	font-size: 1.1em;
-}
-.skill:hover{
-	background-color: var(--color-primary-l);
 }
 .skill i{
 	color: var(--color-secondary-l);
@@ -431,21 +427,84 @@ span .la-times{
 	margin-left: auto;
 }
 .staff_effect_flur{
-	height: 4em;
-	width: 7em;
+	height: 6em;
+	width: 8em;
 	background-color: var(--color-secondary-l);
 	position: relative;
 	filter: blur(20px);
 	border-radius: 50%;
 }
 .staff_effect_flur:first-child{
-	margin-bottom: -5em;
+	margin-bottom: -7em;
 	right: 0.5em;
 }
 .staff_effect_flur:last-child{
-	margin-top: -5em;
+	margin-top: -7em;
 	display: flex;
 	margin-left: auto;
+}
+.formulario{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: var(--color-primary);
+	margin-top: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border-radius: 5px;
+	font-family: var(--font-text);
+	-webkit-box-shadow: 0px 0px 25px -6px #000000; 
+	box-shadow: 0px 0px 25px -6px #000000;
+}
+.formulario label{
+	display: flex;
+	margin-right: auto;
+	margin-left: 1.3em;
+}
+.formulario h3{
+	font-size: 2em;
+	font-family: var(--font-title);
+	border-bottom: 2px solid var(--color-secondary);
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	margin-bottom: 0.5em;
+}
+.formulario_name,
+.formulario_mail{
+	padding: 0.3em 0.5em;
+	width: 80%;
+	border: 2px solid var(--color-primary-o);
+	outline: none;
+	border-radius: 0px;
+}
+#formulario_message{
+	width: 78%;
+	font-size: 1.2em;
+	font-family: var(--font-text);
+	padding: 0.3em 0.5em;
+	resize: none;
+	border: 2px solid var(--color-primary-o);
+	outline: none;
+	border-top: none;
+}
+#formulario_send{
+	margin-top: 0.5em;
+	width: 7em;
+	height: 2em;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	background-color: var(--color-secondary-l);
+	font-weight: bolder;
+	font-family: var(--font-text);
+	font-size: 1em;
+}
+.sendMailto{
+	display: none;
 }
 
 
